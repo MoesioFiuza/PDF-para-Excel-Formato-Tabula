@@ -12,7 +12,7 @@ def pdf_to_excel(pdf_file, output_file):
     else:
         print("FUMO NOS PDFS")
 
-pdf_file = r'C:\\Users\\moesios\\Desktop\\transporte público\\DEMANDA POR LINHA 0106 A 0806.pdf'
-output_file = r'C:\\Users\\moesios\\Desktop\\transporte público\\DEMANDA POR LINHA 0106 A 0806.xlsx'
+pdf_file = r'caminho pdf.pdf'
+output_file = r'caminho de saída para excel.xlsx'
 
 pdf_to_excel(pdf_file, output_file)
